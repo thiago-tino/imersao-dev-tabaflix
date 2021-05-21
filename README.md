@@ -15,7 +15,7 @@
 
 ## 🚀 Tecnologias
 
-Projetos desenvolvidos para iniciação nas tecnologias:
+Projeto desenvolvido para iniciação nas tecnologias:
 
 - HTML
 - CSS
