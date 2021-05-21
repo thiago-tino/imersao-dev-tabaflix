@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="tabaflix" title="tabaflix" src=".github/logo.png" width="220px" />
+  <img alt="tabaflix" title="tabaflix" src=".github/logo.PNG" width="220px" />
 </h1>
 
 <p align="center">
@@ -10,7 +10,7 @@
 <br>
 
 <p align="center">
-  <img alt="tabaflix" src=".github/tabaflix.png" width="100%">
+  <img alt="tabaflix" src=".github/tabaflix.PNG" width="100%">
 </p>
 
 ## 🚀 Tecnologias
