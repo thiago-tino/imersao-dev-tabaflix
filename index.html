@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabaflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a id="logo" href="http://127.0.0.1:5500/Imersao%20Dev/aula-04-05/index.html">Taba<span class="flix_">flix_</span></a>
+            <a class="button" id="entrar" href="http://127.0.0.1:5500/Imersao%20Dev/aula-04-05/index.html">Entrar</a>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="top-content">
+                <h1 id="taba">Seu catálogo no <p class="taba">Taba<span class="taba flix_">flix_</span></p></h1>
+                <div class="include">
+                    <div class="label-input">
+                        <div id="film-favorite">
+                            <label for="film-input">Qual seu filme favorito?</label>
+                            <input type="text" 
+                                id="film-input" 
+                                name="filme-input"
+                                placeholder="Digite o nome do seu filme aqui">
+                        </div>
+                        <div id="img-favorite">
+                            <label for="img-input">Capa do filme favorito:</label>
+                            <input type="url" 
+                                id="img-input" 
+                                name="img-input"
+                                placeholder='Obs: somente links com final ".jpg" ou ".png"'>
+                        </div>
+                    </div>
+                    <button class="button" onclick="save()">Adicionar Filme</button>
+                </div>
+            </section>
+            <section class="cards-content">
+                <div id="card-films">
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por Tabajara Software</p>
+    </footer>
+</body>
+<script src="scripts.js"></script>
+</html>
